@@ -1,0 +1,15 @@
+diff --git a/arch/arm64/boot/dts/rockchip/rk3588-rock-5b.dts b/arch/arm64/boot/dts/rockchip/rk3588-rock-5b.dts
+index 30be811bddc9..a867b55198ed 100644
+--- a/arch/arm64/boot/dts/rockchip/rk3588-rock-5b.dts
++++ b/arch/arm64/boot/dts/rockchip/rk3588-rock-5b.dts
+@@ -239,8 +239,8 @@ dailink0_master: simple-audio-card,codec {
+ 	fan0: pwm-fan {
+ 		compatible = "pwm-fan";
+ 		#cooling-cells = <2>;
+-		cooling-levels = <72 94 117 139 162 184 207 229 255>;
+-		pwms = <&pwm1 0 10000 0>;
++		cooling-levels = <0 1 117 139 162 184 207 229 255>;
++		pwms = <&pwm1 0 1000000000 0>;
+ 	};
+ };
+ 
