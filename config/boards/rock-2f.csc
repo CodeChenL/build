@@ -1,5 +1,5 @@
-# Rockchip RK3528 quad core 1-4GB SoC 0-32GB eMMC
-BOARD_NAME="Rock 2F"
+# Rockchip RK3528 quad core 1-4GB SoC WIFI/BT 0-32GB eMMC
+BOARD_NAME="ROCK 2F"
 BOARDFAMILY="rk35xx"
 BOOTCONFIG="rock-2-rk3528_defconfig"
 BOARD_MAINTAINER="CodeChenL"
