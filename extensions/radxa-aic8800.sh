@@ -55,6 +55,7 @@ function post_install_kernel_debs__install_aic8800_dkms_package() {
 	use_clean_environment="yes" chroot_sdcard 'cat <<- EOF > /usr/lib/systemd/network/50-radxa-aic8800.link
 		[Match]
 		OriginalName=wlan*
+		Driver=usb
 
 		[Link]
 		NamePolicy=kernel
